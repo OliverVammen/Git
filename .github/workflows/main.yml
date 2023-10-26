@@ -1,0 +1,18 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: nt26.unoeuro.com
+        username: ojbeatz.dk
+        password: dnfBHbEzpca9w35h4F62
+        server-dir: git/
+        delete: true
