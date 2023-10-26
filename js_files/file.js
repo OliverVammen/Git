@@ -1,3 +1,3 @@
-alert("The script is working");
+alert("Click here if you wanna continue :D");
 
-document.getElementById("demo").innerHTML = 'John Doe';
+document.getElementById("demo").innerHTML = "You're gay!!!";
