@@ -13,6 +13,6 @@ jobs:
       with:
         server: nt26.unoeuro.com
         username: ojbeatz.dk
-        password: dnfBHbEzpca9w35h4F62
+        password: ${{ secrets.ftp_password }}
         server-dir: git/
         delete: true
