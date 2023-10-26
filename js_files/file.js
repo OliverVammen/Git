@@ -1,3 +1,1 @@
-function greeings(name = 'World') {
-    console.log(Hello, ${ name }!);
-}
+alert("The script is working");
